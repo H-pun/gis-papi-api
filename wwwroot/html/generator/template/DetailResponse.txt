@@ -1,0 +1,12 @@
+﻿using Microsoft.AspNetCore.Http;
+using GISPaPi.Base;
+using GISPaPi.DataAccess.Entities;
+using GISPaPi.Helpers;
+
+namespace GISPaPi.DataAccess.Models
+{
+    public class DetailCustomNameResponse : BaseModel
+    {
+        public Guid Id { get; set; }
+    }
+}

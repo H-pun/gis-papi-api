@@ -1,0 +1,12 @@
+using GISPaPi.Base;
+using System.ComponentModel.DataAnnotations.Schema;
+using GISPaPi.DataAccess.Extensions;
+using GISPaPi.Helpers;
+
+namespace GISPaPi.DataAccess.Entities
+{
+    public class CustomName : BaseEntity
+    {
+
+    }
+}
